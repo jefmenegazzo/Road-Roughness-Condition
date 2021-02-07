@@ -1,0 +1,307 @@
+[
+    {
+        "params": {
+            "file": "dataset-experiment-2-window-100-robust-scaler-train-acc-0.92159-val-acc-0.90563.hdf5",
+            "placement": "Dashboard",
+            "experiment_number": 2,
+            "window_size": 100,
+            "scaler": "Robust Scaler",
+            "input_shape": "(None, 100, 7)",
+            "output_shape": "(None, 3)"
+        },
+        "confusion_matrix": [
+            [
+                2855,
+                15,
+                25
+            ],
+            [
+                82,
+                2774,
+                73
+            ],
+            [
+                30,
+                462,
+                932
+            ]
+        ],
+        "classification_report": {
+            "Good Road": {
+                "precision": 0.9622514324233232,
+                "recall": 0.9861830742659758,
+                "f1-score": 0.974070283179802,
+                "support": 2895
+            },
+            "Regular Road": {
+                "precision": 0.8532759151030452,
+                "recall": 0.9470809149880506,
+                "f1-score": 0.8977346278317153,
+                "support": 2929
+            },
+            "Bad Road": {
+                "precision": 0.9048543689320389,
+                "recall": 0.6544943820224719,
+                "f1-score": 0.7595762021189894,
+                "support": 1424
+            },
+            "accuracy": 0.9052152317880795,
+            "macro avg": {
+                "precision": 0.9067939054861358,
+                "recall": 0.8625861237588328,
+                "f1-score": 0.877127037710169,
+                "support": 7248
+            },
+            "weighted avg": {
+                "precision": 0.9069364891779198,
+                "recall": 0.9052152317880795,
+                "f1-score": 0.9010809473705935,
+                "support": 7248
+            }
+        }
+    },
+    {
+        "params": {
+            "file": "dataset-experiment-2-window-200-robust-scaler-train-acc-0.89064-val-acc-0.89845.hdf5",
+            "placement": "Dashboard",
+            "experiment_number": 2,
+            "window_size": 200,
+            "scaler": "Robust Scaler",
+            "input_shape": "(None, 200, 7)",
+            "output_shape": "(None, 3)"
+        },
+        "confusion_matrix": [
+            [
+                1425,
+                9,
+                14
+            ],
+            [
+                76,
+                1349,
+                42
+            ],
+            [
+                7,
+                227,
+                475
+            ]
+        ],
+        "classification_report": {
+            "Good Road": {
+                "precision": 0.9449602122015915,
+                "recall": 0.9841160220994475,
+                "f1-score": 0.9641407307171854,
+                "support": 1448
+            },
+            "Regular Road": {
+                "precision": 0.8511041009463722,
+                "recall": 0.9195637355146558,
+                "f1-score": 0.8840104849279161,
+                "support": 1467
+            },
+            "Bad Road": {
+                "precision": 0.8945386064030132,
+                "recall": 0.6699576868829337,
+                "f1-score": 0.7661290322580645,
+                "support": 709
+            },
+            "accuracy": 0.8965231788079471,
+            "macro avg": {
+                "precision": 0.8968676398503256,
+                "recall": 0.857879148165679,
+                "f1-score": 0.8714267493010553,
+                "support": 3624
+            },
+            "weighted avg": {
+                "precision": 0.8971026421898368,
+                "recall": 0.8965231788079471,
+                "f1-score": 0.8929648574334176,
+                "support": 3624
+            }
+        }
+    },
+    {
+        "params": {
+            "file": "dataset-experiment-2-window-300-robust-scaler-train-acc-0.89548-val-acc-0.87738.hdf5",
+            "placement": "Dashboard",
+            "experiment_number": 2,
+            "window_size": 300,
+            "scaler": "Robust Scaler",
+            "input_shape": "(None, 300, 7)",
+            "output_shape": "(None, 3)"
+        },
+        "confusion_matrix": [
+            [
+                945,
+                14,
+                12
+            ],
+            [
+                19,
+                948,
+                5
+            ],
+            [
+                6,
+                239,
+                226
+            ]
+        ],
+        "classification_report": {
+            "Good Road": {
+                "precision": 0.9742268041237113,
+                "recall": 0.9732234809474768,
+                "f1-score": 0.9737248840803708,
+                "support": 971
+            },
+            "Regular Road": {
+                "precision": 0.7893422148209825,
+                "recall": 0.9753086419753086,
+                "f1-score": 0.8725264611136677,
+                "support": 972
+            },
+            "Bad Road": {
+                "precision": 0.9300411522633745,
+                "recall": 0.47983014861995754,
+                "f1-score": 0.6330532212885154,
+                "support": 471
+            },
+            "accuracy": 0.8777961888980944,
+            "macro avg": {
+                "precision": 0.8978700570693561,
+                "recall": 0.8094540905142477,
+                "f1-score": 0.8264348554941847,
+                "support": 2414
+            },
+            "weighted avg": {
+                "precision": 0.8911616579644441,
+                "recall": 0.8777961888980944,
+                "f1-score": 0.8665081399633041,
+                "support": 2414
+            }
+        }
+    },
+    {
+        "params": {
+            "file": "dataset-experiment-2-window-400-robust-scaler-train-acc-0.90574-val-acc-0.88066.hdf5",
+            "placement": "Dashboard",
+            "experiment_number": 2,
+            "window_size": 400,
+            "scaler": "Robust Scaler",
+            "input_shape": "(None, 400, 7)",
+            "output_shape": "(None, 3)"
+        },
+        "confusion_matrix": [
+            [
+                706,
+                13,
+                4
+            ],
+            [
+                16,
+                708,
+                17
+            ],
+            [
+                33,
+                134,
+                179
+            ]
+        ],
+        "classification_report": {
+            "Good Road": {
+                "precision": 0.9350993377483444,
+                "recall": 0.9764868603042877,
+                "f1-score": 0.9553450608930989,
+                "support": 723
+            },
+            "Regular Road": {
+                "precision": 0.8280701754385965,
+                "recall": 0.9554655870445344,
+                "f1-score": 0.887218045112782,
+                "support": 741
+            },
+            "Bad Road": {
+                "precision": 0.895,
+                "recall": 0.5173410404624278,
+                "f1-score": 0.6556776556776558,
+                "support": 346
+            },
+            "accuracy": 0.8801104972375691,
+            "macro avg": {
+                "precision": 0.886056504395647,
+                "recall": 0.81643116260375,
+                "f1-score": 0.8327469205611789,
+                "support": 1810
+            },
+            "weighted avg": {
+                "precision": 0.8836170282829022,
+                "recall": 0.8801104972375691,
+                "f1-score": 0.8701699001761054,
+                "support": 1810
+            }
+        }
+    },
+    {
+        "params": {
+            "file": "dataset-experiment-2-window-500-robust-scaler-train-acc-0.95749-val-acc-0.86929.hdf5",
+            "placement": "Dashboard",
+            "experiment_number": 2,
+            "window_size": 500,
+            "scaler": "Robust Scaler",
+            "input_shape": "(None, 500, 7)",
+            "output_shape": "(None, 3)"
+        },
+        "confusion_matrix": [
+            [
+                565,
+                7,
+                5
+            ],
+            [
+                16,
+                568,
+                0
+            ],
+            [
+                2,
+                159,
+                124
+            ]
+        ],
+        "classification_report": {
+            "Good Road": {
+                "precision": 0.9691252144082333,
+                "recall": 0.9792027729636048,
+                "f1-score": 0.9741379310344828,
+                "support": 577
+            },
+            "Regular Road": {
+                "precision": 0.773841961852861,
+                "recall": 0.9726027397260274,
+                "f1-score": 0.8619119878603945,
+                "support": 584
+            },
+            "Bad Road": {
+                "precision": 0.9612403100775194,
+                "recall": 0.43508771929824563,
+                "f1-score": 0.5990338164251209,
+                "support": 285
+            },
+            "accuracy": 0.8692946058091287,
+            "macro avg": {
+                "precision": 0.9014024954462045,
+                "recall": 0.7956310773292926,
+                "f1-score": 0.8116945784399993,
+                "support": 1446
+            },
+            "weighted avg": {
+                "precision": 0.8887015510426794,
+                "recall": 0.8692946058091287,
+                "f1-score": 0.8548816215757444,
+                "support": 1446
+            }
+        }
+    }
+]
